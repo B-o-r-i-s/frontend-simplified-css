@@ -1,0 +1,140 @@
+.box-1 {
+    width: 80%;
+    margin: auto;
+    background-color: pink;
+}
+.box-2 {
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+}
+.categories {
+    width: 80%;
+    margin: auto;
+    border: 2px black dashed;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.categories ul {
+    list-style: none;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    word-spacing: 1em;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    font: normal 1.6em Arial;
+    padding: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 5px black solid;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+   
+}
+
+.categories li {
+    border-bottom:1px black solid ;
+    margin-right: 10%;
+    list-style-image: url(../download.png);
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.form-group label {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.form-group input[type=text], .form-group textarea{
+    width: 100%;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.clr {
+    clear: both;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    border-radius: 8px;   
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.p-block {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    background-image: url(../pexels-photo-11490897.jpeg);
+    position: relative;
+}
+
+.p-block .p-1 {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+
+}
+
+.p-block .p-2 {
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+}
+
+.text-fixed {
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:nth-child(odd){
+    color: red;
+}
+.my-list li:nth-child(even){
+    color: blue;
+}
